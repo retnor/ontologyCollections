@@ -43,84 +43,51 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabits -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabits"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabit -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasBMI -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabit"/>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasBMI"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDrunk -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDrunk"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDepression -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEducation -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDepression"/>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDevelopmentStage -->
-
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDevelopmentStage"/>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType -->
-
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEthnicity -->
-
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEthnicity">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEducation"/>
     
 
 
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasGender -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasGender">
-        <rdfs:domain rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasGender"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHobby -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHouseholdSize -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHobby"/>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHousetype -->
-
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHousetype"/>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHypertension -->
-
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHypertension">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHouseholdSize"/>
     
 
 
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasIncome -->
 
     <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasIncome"/>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasMarried -->
+
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasMarried"/>
     
 
 
@@ -136,31 +103,45 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isBedSharing -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasReligion -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isBedSharing"/>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasReligion"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isBedroomSharing -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasSmokingHabits -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isBedroomSharing"/>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasSmokingHabits"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveAt -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isEmployed -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveAt"/>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isEmployed"/>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isHomeless -->
+
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isHomeless"/>
     
 
 
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveIn -->
 
-    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveIn">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-        <rdfs:range rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Country"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveIn"/>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#parentsBornIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#parentsBornIn"/>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#usingDrugs -->
+
+    <owl:ObjectProperty rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#usingDrugs"/>
     
 
 
@@ -231,9 +212,17 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age">
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Habits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BMI -->
+
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BMI">
         <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
     </owl:Class>
     
@@ -245,18 +234,18 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Conditions -->
-
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Conditions">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Country -->
 
     <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Country">
         <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Education -->
+
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Education">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
     </owl:Class>
     
 
@@ -269,65 +258,47 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EmploymentType -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EverDrunk -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EmploymentType">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employment"/>
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EverDrunk">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Habits"/>
     </owl:Class>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Ethnicity -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Habits -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Ethnicity">
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Habits">
         <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Gender -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Income -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Gender">
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Income">
         <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hobby -->
-
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hobby">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HousingTypes -->
-
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HousingTypes">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hypertension -->
-
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hypertension">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Conditions"/>
     </owl:Class>
     
 
 
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#InfectiousDiseases -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#InfectiousDiseases">
-        <owl:disjointWith rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreExistingIllness"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#InfectiousDiseases"/>
     
 
 
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Location -->
 
     <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Location"/>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#MaritalStatus -->
+
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#MaritalStatus">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+    </owl:Class>
     
 
 
@@ -339,24 +310,32 @@
     
 
 
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ParentsBirthCountry -->
+
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ParentsBirthCountry">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Location"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person -->
 
     <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreExistingIllness -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreexistingIllness -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreExistingIllness">
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreexistingIllness">
         <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ResidenceStatus -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Location"/>
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ResidenceStatus">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
     </owl:Class>
     
 
@@ -369,10 +348,18 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#TransportationToWork -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SmokingHabits -->
 
-    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#TransportationToWork">
-        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employment"/>
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SmokingHabits">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Habits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#UseDrugs -->
+
+    <owl:Class rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#UseDrugs">
+        <rdfs:subClassOf rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Habits"/>
     </owl:Class>
     
 
@@ -396,26 +383,43 @@
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Central -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BosniaHerzegovina -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Central">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BosniaHerzegovina">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ParentsBirthCountry"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Chinese -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ChronicKidney -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Chinese">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Ethnicity"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ChronicKidney">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreexistingIllness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Croatia -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#InfectiousDiseases"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Croatia">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Country"/>
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ParentsBirthCountry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Croatian -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Croatian">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Nationality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Daily -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Daily">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits"/>
     </owl:NamedIndividual>
     
 
@@ -423,255 +427,263 @@
     <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Diabetes -->
 
     <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Diabetes">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreExistingIllness"/>
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreexistingIllness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Female -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Drinkers -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Female">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Gender"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Drinkers">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Indian -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employed -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Indian">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Ethnicity"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employed">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employment"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Malay -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ExDrinkers -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Malay">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Ethnicity"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ExDrinkers">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Male -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ExSmoker -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Male">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Gender"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ExSmoker">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SmokingHabits"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NoHyp -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HIV -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NoHyp">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hypertension"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HIV">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PreexistingIllness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonSingaporean -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#High -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonSingaporean">
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#High">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Income"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Homeless -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Homeless">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ResidenceStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Housewives -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Housewives">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Low">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Income"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Married -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Married">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#MaritalStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Medium">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Income"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Never -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Never">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#No -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#No">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EverDrunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonSmoker -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonSmoker">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SmokingHabits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonUser -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonUser">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#UseDrugs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Normal -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Normal">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BMI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NotEmployed -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NotEmployed">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Employment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NotHomeless -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NotHomeless">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ResidenceStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Often -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Often">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EverDrunk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OnceAWeek -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OnceAWeek">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#AlcoholDrinkingHabits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OtherCountry -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OtherCountry">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ParentsBirthCountry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OtherNat -->
+
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OtherNat">
         <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Nationality"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NorthEast -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Overweight -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NorthEast">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Overweight">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BMI"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NorthWest -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PassiveSmoker -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NorthWest">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PassiveSmoker">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SmokingHabits"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Other -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Primary -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Other">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Ethnicity"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Primary">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Education"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Singapore -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Rarely -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Singapore">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Country"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Rarely">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EverDrunk"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Singaporean -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Secondary -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Singaporean">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Nationality"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Secondary">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Education"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SouthEast -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Single -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SouthEast">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Single">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#MaritalStatus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SouthWest -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Smoker -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SouthWest">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Region"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Smoker">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SmokingHabits"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Travelling -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Travelling">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hobby"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#InfectiousDiseases"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#YesHyp -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Underweight -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#YesHyp">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Hypertension"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Underweight">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BMI"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#above61 -->
+    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#User -->
 
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#above61">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#bothInOutdoor -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#bothInOutdoor">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EmploymentType"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#dormitories -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#dormitories">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HousingTypes"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#indoor -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#indoor">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EmploymentType"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#landedHouse -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#landedHouse">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HousingTypes"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#less21 -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#less21">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#outdoor -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#outdoor">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#EmploymentType"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#private -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#private">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#TransportationToWork"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#privateFlats -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#privateFlats">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HousingTypes"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#public -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#public">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#TransportationToWork"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#publicFlats -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#publicFlats">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#HousingTypes"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#walking -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#walking">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#TransportationToWork"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#21to30 -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#21to30">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#31to40 -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#31to40">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#41to50 -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#41to50">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#51to60 -->
-
-    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#51to60">
-        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Age"/>
+    <owl:NamedIndividual rdf:about="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#User">
+        <rdf:type rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#UseDrugs"/>
     </owl:NamedIndividual>
     
 
@@ -690,7 +702,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S7</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S18</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -708,9 +720,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabits"/>
                                 <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#above61"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Daily"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -725,238 +737,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.68</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S10</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEthnicity"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Other"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.63</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S2</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasGender"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Male"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.05</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S21</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHobby"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Travelling"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.87</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S17</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHousetype"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#dormitories"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.03</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S16</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHousetype"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#landedHouse"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.86</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -984,9 +766,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHousetype"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasSmokingHabits"/>
                                 <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#privateFlats"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#PassiveSmoker"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1001,8 +783,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.86</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1012,7 +794,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S20</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S14</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1030,9 +812,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasHypertension"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasSmokingHabits"/>
                                 <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#YesHyp"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Smoker"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1047,8 +829,284 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.14</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S10</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isEmployed"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Housewives"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.11</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S9</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isEmployed"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NotEmployed"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.82</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S8</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#isHomeless"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Homeless"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.69</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveIn"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Croatia"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#setRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.42</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S17</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabits"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ExDrinkers"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.71</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#parentsBornIn"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#BosniaHerzegovina"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.86</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1076,9 +1134,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#parentsBornIn"/>
                                 <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#31to40"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OtherCountry"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1093,8 +1151,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.01</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.82</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1104,7 +1162,559 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S18</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S22</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#usingDrugs"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#User"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.14</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S19</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabits"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OnceAWeek"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.42</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S25</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasBMI"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Normal"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.83</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S26</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasBMI"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Underweight"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.99</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S21</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDrunk"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Often"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.78</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S20</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDrunk"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Rarely"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.03</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S7</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEducation"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Primary"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.55</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEducation"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Secondary"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.53</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S11</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasIncome"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Low"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.07</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S12</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasIncome"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Medium"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.05</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasMarried"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Single"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.79</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S16</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAlcoholDrinkingHabits"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Drinkers"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.38</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S5</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1124,7 +1734,7 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasNationality"/>
                                 <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NonSingaporean"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#OtherNat"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1139,8 +1749,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.92</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.33</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1150,7 +1760,53 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S19</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S24</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasPreexistingIllness"/>
+                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ChronicKidney"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S23</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1185,54 +1841,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.58</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S11</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveAt"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Central"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.63</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.93</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1260,9 +1870,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveAt"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasSmokingHabits"/>
                                 <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NorthEast"/>
+                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#ExSmoker"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1277,907 +1887,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.74</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S12</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveAt"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#NorthWest"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.38</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S14</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveAt"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#SouthEast"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.21</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#liveIn"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Singapore"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#setRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.036</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S5</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#41to50"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.53</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S6</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#51to60"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.35</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S29</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#bothInOutdoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#private"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.43</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S23</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#indoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#private"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.87</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S26</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#outdoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#private"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.41</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S28</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#bothInOutdoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#public"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.68</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S22</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#indoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#public"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.51</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S25</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#outdoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#public"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S30</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#bothInOutdoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#walking"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.81</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasAge"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#21to30"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.56</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S24</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#indoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#walking"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S27</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEmploymentType"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#outdoor"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasDailyTransportationMode"/>
-                                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                        <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#walking"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.68</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S9</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEthnicity"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Indian"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.47</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority: 1</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S8</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Person"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#hasEthnicity"/>
-                                <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#all"/>
-                                <swrl:argument2 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Malay"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#alterRisk"/>
-                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#DengueFever"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.47</swrl:argument2>
+                        <swrl:argument1 rdf:resource="http://www.vhynaulia.com/revalina/ontologies/2016/10/pwidas#Tuberculosis"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.55</swrl:argument2>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
